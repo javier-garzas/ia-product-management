@@ -31,9 +31,10 @@ flowchart TD
     B["✅ validar-idea-antes-de-construir<br/>¿Merece construirse?"]
     C["🗺️ mapa-viaje-cliente<br/>¿Dónde duele la experiencia?"]
     D["📊 mapa-de-historias-usuario<br/>¿Qué construir y en qué orden?"]
+    G["✂️ division-de-historias-usuario<br/>¿Es demasiado grande? Divídela"]
     E["📝 crear-historias-de-usuario<br/>Cada historia, lista para el sprint"]
     F["📐 crear-spec-sdd<br/>Spec para que la IA lo construya"]
-    A --> B --> C --> D --> E --> F
+    A --> B --> C --> D --> G --> E --> F
 ```
 
 **Reducir riesgo** (¿debo hacerlo?): `ED2A` → `validar-idea`.
@@ -57,6 +58,7 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 | [`validar-idea-antes-de-construir`](skills/validar-idea-antes-de-construir/) | Convierte una idea o iniciativa en una **hipótesis testeable** (si/entonces): acción, persona y resultado esperado, más los experimentos ligeros para validarla y las medidas de éxito **antes de construir**. Trata las iniciativas como apuestas con criterios de cierre, no como promesas. |
 | [`mapa-viaje-cliente`](skills/mapa-viaje-cliente/) | Crea un **mapa del viaje del cliente** de principio a fin: etapas, puntos de contacto, acciones, emociones, puntos de dolor y oportunidades, más los momentos críticos (momento ajá, momentos de la verdad, churn) y las mejoras priorizadas. Para encontrar dónde se rompe la experiencia y mejorar conversión y retención. |
 | [`mapa-de-historias-usuario`](skills/mapa-de-historias-usuario/) | Crea un **mapa de historias de usuario** (user story mapping de Jeff Patton): columna vertebral de actividades → pasos → tareas, con líneas de release que separan el MVP de lo que viene después. Para construir entendimiento compartido y priorizar el backlog en torno al viaje del usuario. |
+| [`division-de-historias-usuario`](skills/division-de-historias-usuario/) | Divide una **historia o épica demasiado grande** en historias más pequeñas, verticales y entregables de forma independiente, con los 8 patrones de división probados (flujo, reglas, datos, criterios de aceptación, esfuerzo, dependencias, DevOps y actos de descubrimiento). Para bajar el tamaño de lote, reducir riesgo y mantener el flujo. |
 | [`crear-historias-de-usuario`](skills/crear-historias-de-usuario/) | Aterriza **una única historia de usuario** hasta dejarla lista para que un equipo la coja en un sprint: story statement, criterios de aceptación en Gherkin (happy path + errores), Definition of Ready, Definition of Done, scope, dependencias y validación INVEST. |
 | [`crear-spec-sdd`](skills/crear-spec-sdd/) | Convierte una idea de feature en un `spec.md` completo listo para **SDD (Spec-Driven Development)**, siguiendo el estándar de GitHub Spec Kit: historias priorizadas con criterios de aceptación en Gherkin, requisitos funcionales, entidades, criterios de éxito medibles y suposiciones. |
 
