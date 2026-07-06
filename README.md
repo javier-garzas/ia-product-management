@@ -27,6 +27,7 @@ Las skills no son piezas sueltas: cubren el recorrido completo de una decisión 
 
 ```mermaid
 flowchart TD
+    LC["💡 crear-lean-canvas<br/>Modelo de negocio en 1 página"]
     A["🚪 cuando-usar-ia-metodo-ed2a<br/>¿Toca IA? — método ED2A"]
     T["🌳 arbol-oportunidad-solucion<br/>Estructurar el discovery"]
     P["🎯 priorizar-funcionalidades<br/>¿En qué trabajar primero?"]
@@ -37,9 +38,11 @@ flowchart TD
     G["✂️ division-de-historias-usuario<br/>¿Es demasiado grande? Divídela"]
     E["📝 crear-historias-de-usuario<br/>Cada historia, lista para el sprint"]
     F["📐 crear-spec-sdd<br/>Spec para que la IA lo construya"]
+    LC -.-> A
     A --> T --> P --> B --> R --> C --> D --> G --> E --> F
 ```
 
+**Punto de partida** (negocio o idea nueva): `crear-lean-canvas` — el modelo entero en una página.
 **Decidir y descubrir** (¿qué problema, debo hacerlo?): `ED2A` → `arbol-oportunidad-solucion` → `priorizar` → `validar-idea`.
 **Planificar** (¿en qué orden?): `planificacion-roadmap`.
 **Diseñar y especificar** (hacerlo bien): `mapa-viaje-cliente` → `mapa-de-historias-usuario` → `division-de-historias-usuario` → `crear-historias-de-usuario` → `crear-spec-sdd`.
@@ -58,6 +61,7 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 
 | Skill | Qué hace |
 |-------|----------|
+| [`crear-lean-canvas`](skills/crear-lean-canvas/) | Guía **paso a paso, en conversación**, para construir un **Lean Canvas** (Ash Maurya): rellena los 9 bloques uno a uno con preguntas y ejemplos, y entrega el lienzo completo. El punto de partida cuando arrancas un negocio o producto nuevo y quieres su modelo en una página. |
 | [`cuando-usar-ia-metodo-ed2a`](skills/cuando-usar-ia-metodo-ed2a/) ⭐ | Decide **cuándo usar IA (y cuándo no)** con el método propio **ED2A** (Eliminar · Delegar · Agilizar · Automatizar → IA): la IA como último recurso. Incluye el filtro de las 4 variables y los principios de estrategia de IA de referentes del sector. Contra el "IA por el simple hecho de usar IA". |
 | [`arbol-oportunidad-solucion`](skills/arbol-oportunidad-solucion/) | Construye un **Árbol de Oportunidad-Solución** (OST de Teresa Torres) que conecta un resultado deseado con oportunidades del cliente, soluciones candidatas y experimentos. Para estructurar el discovery y no saltar directo a la solución. Prioriza problemas, no funcionalidades. |
 | [`priorizar-funcionalidades`](skills/priorizar-funcionalidades/) | Prioriza un **backlog de ideas** por impacto, esfuerzo, riesgo y alineación estratégica, y devuelve las **5 principales** con justificación, trade-offs y qué se despriorizó. Usa marcos probados (Opportunity Score de Dan Olsen, ICE, RICE). Para decidir en qué trabajar primero con criterio, no por quién grita más. |
