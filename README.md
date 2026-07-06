@@ -28,16 +28,17 @@ Las skills no son piezas sueltas: cubren el recorrido completo de una decisión 
 ```mermaid
 flowchart TD
     A["🚪 cuando-usar-ia-metodo-ed2a<br/>¿Toca IA? — método ED2A"]
+    P["🎯 priorizar-funcionalidades<br/>¿En qué trabajar primero?"]
     B["✅ validar-idea-antes-de-construir<br/>¿Merece construirse?"]
     C["🗺️ mapa-viaje-cliente<br/>¿Dónde duele la experiencia?"]
     D["📊 mapa-de-historias-usuario<br/>¿Qué construir y en qué orden?"]
     G["✂️ division-de-historias-usuario<br/>¿Es demasiado grande? Divídela"]
     E["📝 crear-historias-de-usuario<br/>Cada historia, lista para el sprint"]
     F["📐 crear-spec-sdd<br/>Spec para que la IA lo construya"]
-    A --> B --> C --> D --> G --> E --> F
+    A --> P --> B --> C --> D --> G --> E --> F
 ```
 
-**Reducir riesgo** (¿debo hacerlo?): `ED2A` → `validar-idea`.
+**Reducir riesgo** (¿debo hacerlo?): `ED2A` → `priorizar` → `validar-idea`.
 **Diseñar y especificar** (hacerlo bien): `mapa-viaje-cliente` → `mapa-de-historias-usuario` → `crear-historias-de-usuario` → `crear-spec-sdd`.
 
 No hace falta usarlas en orden: cada una vale por sí sola. El flujo solo muestra cómo se apoyan entre ellas.
@@ -55,6 +56,7 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 | Skill | Qué hace |
 |-------|----------|
 | [`cuando-usar-ia-metodo-ed2a`](skills/cuando-usar-ia-metodo-ed2a/) ⭐ | Decide **cuándo usar IA (y cuándo no)** con el método propio **ED2A** (Eliminar · Delegar · Agilizar · Automatizar → IA): la IA como último recurso. Incluye el filtro de las 4 variables y los principios de estrategia de IA de referentes del sector. Contra el "IA por el simple hecho de usar IA". |
+| [`priorizar-funcionalidades`](skills/priorizar-funcionalidades/) | Prioriza un **backlog de ideas** por impacto, esfuerzo, riesgo y alineación estratégica, y devuelve las **5 principales** con justificación, trade-offs y qué se despriorizó. Usa marcos probados (Opportunity Score de Dan Olsen, ICE, RICE). Para decidir en qué trabajar primero con criterio, no por quién grita más. |
 | [`validar-idea-antes-de-construir`](skills/validar-idea-antes-de-construir/) | Convierte una idea o iniciativa en una **hipótesis testeable** (si/entonces): acción, persona y resultado esperado, más los experimentos ligeros para validarla y las medidas de éxito **antes de construir**. Trata las iniciativas como apuestas con criterios de cierre, no como promesas. |
 | [`mapa-viaje-cliente`](skills/mapa-viaje-cliente/) | Crea un **mapa del viaje del cliente** de principio a fin: etapas, puntos de contacto, acciones, emociones, puntos de dolor y oportunidades, más los momentos críticos (momento ajá, momentos de la verdad, churn) y las mejoras priorizadas. Para encontrar dónde se rompe la experiencia y mejorar conversión y retención. |
 | [`mapa-de-historias-usuario`](skills/mapa-de-historias-usuario/) | Crea un **mapa de historias de usuario** (user story mapping de Jeff Patton): columna vertebral de actividades → pasos → tareas, con líneas de release que separan el MVP de lo que viene después. Para construir entendimiento compartido y priorizar el backlog en torno al viaje del usuario. |
