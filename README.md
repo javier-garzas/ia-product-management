@@ -2,11 +2,11 @@
 
 > ### 🧭 Del problema del cliente a la spec — con criterio.
 
-[![Skills](https://img.shields.io/badge/Skills-11-2ea44f.svg)](#skills-disponibles)
+[![Skills](https://img.shields.io/badge/Skills-12-2ea44f.svg)](#skills-disponibles)
 [![Método ED2A](https://img.shields.io/badge/M%C3%A9todo-ED2A-blueviolet.svg)](skills/cuando-usar-ia-metodo-ed2a/)
 [![Licencia: CC BY-NC-SA 4.0](https://img.shields.io/badge/Licencia-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 
-Colección de **11 skills para agentes de IA** (Claude, y compatibles) creadas por **[Javier Garzás](https://www.javiergarzas.com/) — 233 Academy** y compartidas de forma abierta con la comunidad.
+Colección de **12 skills para agentes de IA** (Claude, y compatibles) creadas por **[Javier Garzás](https://www.javiergarzas.com/) — 233 Academy** y compartidas de forma abierta con la comunidad.
 
 Cada skill encapsula una forma de trabajar probada y con criterio profesional, para que el agente no te devuelva un resultado genérico, sino uno que sigue un método real. Juntas forman **un método de producto de punta a punta: del riesgo a la spec.**
 
@@ -32,6 +32,7 @@ Las skills no son piezas sueltas: cubren el recorrido completo de una decisión 
 ```mermaid
 flowchart TD
     LC["💡 crear-lean-canvas<br/>Modelo de negocio en 1 página"]
+    OK["📈 crear-y-revisar-okrs<br/>Fijar los resultados (OKRs)"]
     A["🚪 cuando-usar-ia-metodo-ed2a<br/>¿Toca IA? — método ED2A"]
     T["🌳 arbol-oportunidad-solucion<br/>Estructurar el discovery"]
     P["🎯 priorizar-funcionalidades<br/>¿En qué trabajar primero?"]
@@ -43,10 +44,13 @@ flowchart TD
     E["📝 crear-historias-de-usuario<br/>Cada historia, lista para el sprint"]
     F["📐 crear-spec-sdd<br/>Spec para que la IA lo construya"]
     LC -.-> A
+    OK -.-> T
+    OK -.-> R
     A --> T --> P --> B --> R --> C --> D --> G --> E --> F
 ```
 
 **Punto de partida** (negocio o idea nueva): `crear-lean-canvas` — el modelo entero en una página.
+**Estrategia** (metas): `crear-y-revisar-okrs` — fija los resultados que persiguen el discovery y el roadmap.
 **Decidir y descubrir** (¿qué problema, debo hacerlo?): `ED2A` → `arbol-oportunidad-solucion` → `priorizar` → `validar-idea`.
 **Planificar** (¿en qué orden?): `planificacion-roadmap`.
 **Diseñar y especificar** (hacerlo bien): `mapa-viaje-cliente` → `mapa-de-historias-usuario` → `division-de-historias-usuario` → `crear-historias-de-usuario` → `crear-spec-sdd`.
@@ -66,6 +70,7 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 | Skill | Qué hace |
 |-------|----------|
 | [`crear-lean-canvas`](skills/crear-lean-canvas/) | Guía **paso a paso, en conversación**, para construir un **Lean Canvas** (Ash Maurya): rellena los 9 bloques uno a uno con preguntas y ejemplos, y entrega el lienzo completo. El punto de partida cuando arrancas un negocio o producto nuevo y quieres su modelo en una página. |
+| [`crear-y-revisar-okrs`](skills/crear-y-revisar-okrs/) | Asistente de **OKRs** con el método probado de Javier Garzás: **crea** un OKR (desde visión/misión/estrategia y el reto del trimestre), lo **revisa** con checklist, o **resuelve dudas**. Objetivo cualitativo + máx. 3 KR que son outcomes de impacto (no tareas ni KPIs), con 3 métodos de medición (Radical Focus, Google/Doerr, Lamorte). |
 | [`cuando-usar-ia-metodo-ed2a`](skills/cuando-usar-ia-metodo-ed2a/) ⭐ | Decide **cuándo usar IA (y cuándo no)** con el método propio **ED2A** (Eliminar · Delegar · Agilizar · Automatizar → IA): la IA como último recurso. Incluye el filtro de las 4 variables y los principios de estrategia de IA de referentes del sector. Contra el "IA por el simple hecho de usar IA". |
 | [`arbol-oportunidad-solucion`](skills/arbol-oportunidad-solucion/) | Construye un **Árbol de Oportunidad-Solución** (OST de Teresa Torres) que conecta un resultado deseado con oportunidades del cliente, soluciones candidatas y experimentos. Para estructurar el discovery y no saltar directo a la solución. Prioriza problemas, no funcionalidades. |
 | [`priorizar-funcionalidades`](skills/priorizar-funcionalidades/) | Prioriza un **backlog de ideas** por impacto, esfuerzo, riesgo y alineación estratégica, y devuelve las **5 principales** con justificación, trade-offs y qué se despriorizó. Usa marcos probados (Opportunity Score de Dan Olsen, ICE, RICE). Para decidir en qué trabajar primero con criterio, no por quién grita más. |
@@ -77,7 +82,7 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 | [`crear-historias-de-usuario`](skills/crear-historias-de-usuario/) | Aterriza **una única historia de usuario** hasta dejarla lista para que un equipo la coja en un sprint: story statement, criterios de aceptación en Gherkin (happy path + errores), Definition of Ready, Definition of Done, scope, dependencias y validación INVEST. |
 | [`crear-spec-sdd`](skills/crear-spec-sdd/) | Convierte una idea de feature en un `spec.md` completo listo para **SDD (Spec-Driven Development)**, siguiendo el estándar de GitHub Spec Kit: historias priorizadas con criterios de aceptación en Gherkin, requisitos funcionales, entidades, criterios de éxito medibles y suposiciones. |
 
-**11 skills** — y la lista irá creciendo.
+**12 skills** — y la lista irá creciendo.
 
 ---
 
