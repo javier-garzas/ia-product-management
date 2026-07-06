@@ -30,11 +30,11 @@ _La lista irá creciendo._
 
 1. Clona este repositorio (o descárgalo como ZIP):
    ```bash
-   git clone https://github.com/USUARIO/JAVIER-GARZAS-233-ACADEMY-SKILLS.git
+   git clone https://github.com/USUARIO/ia-product-management.git
    ```
 2. Copia la carpeta de la skill que quieras dentro de tu carpeta de skills personales:
    ```bash
-   cp -r JAVIER-GARZAS-233-ACADEMY-SKILLS/skills/crear-spec-sdd ~/.claude/skills/
+   cp -r ia-product-management/skills/crear-spec-sdd ~/.claude/skills/
    ```
 3. Ya está. En tu próxima sesión, el agente activará la skill cuando la tarea encaje, o puedes invocarla con `/crear-spec-sdd`.
 
