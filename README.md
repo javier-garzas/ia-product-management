@@ -30,7 +30,7 @@ _La lista irá creciendo._
 
 1. Clona este repositorio (o descárgalo como ZIP):
    ```bash
-   git clone https://github.com/USUARIO/ia-product-management.git
+   git clone https://github.com/javier-garzas/ia-product-management.git
    ```
 2. Copia la carpeta de la skill que quieras dentro de tu carpeta de skills personales:
    ```bash
