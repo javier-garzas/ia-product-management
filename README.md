@@ -95,6 +95,17 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 
 ---
 
+## Guías (para leer)
+
+Además de las skills (para agentes), el repo incluye **guías para leer y aprender**:
+
+- 📖 [**Guía BDD y Gherkin**](guias/guia-bdd-gherkin.md) — BDD, Gherkin y Cucumber, el proceso de fuera a dentro y buenas prácticas.
+- 📖 [**Guía de OKRs**](guias/guia-okrs.md) — objetivos y resultados clave (es también la base de conocimiento de la skill `crear-y-revisar-okrs`).
+
+Índice completo en [`guias/`](guias/).
+
+---
+
 ## Cómo usar una skill
 
 📘 **Guía completa paso a paso: [CÓMO-USAR.md](COMO-USAR.md)** (instalación en Claude Code y en la app de Claude, cómo actualizar y solución de problemas).
