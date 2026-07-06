@@ -1,7 +1,7 @@
 ---
-name: estrategia-producto-ia
+name: cuando-usar-ia-metodo-ed2a
 author: Javier Garzás — 233 Academy
-description: Ayuda a definir la estrategia de producto con IA usando el método propio ED2A (Eliminar, Delegar, Agilizar, Automatizar) — que trata la IA como el último recurso, no el primero — y lo respalda con los principios de estrategia de IA de referentes del sector. Úsala cuando alguien esté construyendo un producto de IA, decidiendo dónde aplicar IA, planificando un roadmap de IA, evaluando construir vs. comprar, o evitando el clásico "IA por el simple hecho de usar IA". No la uses para especificar una feature ya decidida (para eso está `crear-spec-sdd`) ni para validar si una iniciativa merece la pena (para eso está `hipotesis-de-epica`).
+description: Ayuda a definir la estrategia de producto con IA usando el método propio ED2A (Eliminar, Delegar, Agilizar, Automatizar) — que trata la IA como el último recurso, no el primero — y lo respalda con los principios de estrategia de IA de referentes del sector. Úsala cuando alguien esté construyendo un producto de IA, decidiendo dónde aplicar IA, planificando un roadmap de IA, evaluando construir vs. comprar, o evitando el clásico "IA por el simple hecho de usar IA". No la uses para especificar una feature ya decidida (para eso está `crear-spec-sdd`) ni para validar si una iniciativa merece la pena (para eso está `validar-idea-antes-de-construir`).
 ---
 
 # Estrategia de Producto con IA — método ED2A

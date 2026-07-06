@@ -1,10 +1,10 @@
 ---
-name: hipotesis-de-epica
+name: validar-idea-antes-de-construir
 author: Javier Garzás — 233 Academy
 description: Enmarca una épica como una hipótesis testeable con estructura si/entonces — acción o solución, persona objetivo, resultado esperado — más los experimentos ligeros para validarla y las medidas de éxito antes de comprometerte a construir. Úsala cuando definas una iniciativa importante antes del roadmap, el discovery o la entrega, para gestionar la incertidumbre y tratar las épicas como apuestas y no como promesas. No la uses para una funcionalidad ya validada (salta a `crear-historias-de-usuario`), ni cuando el QUÉ ya está decidido y toca especificar para construir (para eso está `crear-spec-sdd`).
 ---
 
-# Hipótesis de Épica
+# Validar una idea antes de construir (hipótesis de épica)
 
 ## Propósito
 
