@@ -9,4 +9,10 @@ Guías de **Javier Garzás — 233 Academy** para **leer y aprender** (pensadas 
 
 > ⚠️ **Licencias:** cada guía indica la suya en su cabecera. La de OKRs mantiene su licencia original **CC BY-NC-ND** (no permite obras derivadas), distinta de la del resto del repositorio. Consulta el [README principal](../README.md#autoría-y-licencia).
 
+---
+
+## 🚀 Únete a la comunidad
+
+- 💬 **[Grupo de WhatsApp (gratis)](https://api.whatsapp.com/send/?phone=34684724916&text=Hola%2C+quiero+unirme+a+la+comunidad&type=phone_number&app_absent=0)** · ✉️ **[Newsletter](https://www.javiergarzas.com)** · 🎓 **[233 Academy](https://233academy.com)**
+
 _Que la IAgilidad te acompañe._

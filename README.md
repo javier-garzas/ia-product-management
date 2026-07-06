@@ -2,6 +2,9 @@
 
 > ### 🧭 Del problema del cliente a la spec — con criterio.
 
+[![Comunidad en WhatsApp gratis](https://img.shields.io/badge/Comunidad-WhatsApp%20gratis-25D366.svg)](https://api.whatsapp.com/send/?phone=34684724916&text=Hola%2C+quiero+unirme+a+la+comunidad&type=phone_number&app_absent=0)
+[![Newsletter](https://img.shields.io/badge/Newsletter-javiergarzas.com-1a73e8.svg)](https://www.javiergarzas.com)
+[![233 Academy](https://img.shields.io/badge/Formaci%C3%B3n-233%20Academy-ff6a00.svg)](https://233academy.com)
 [![Skills](https://img.shields.io/badge/Skills-15-2ea44f.svg)](#skills-disponibles)
 [![Método ED2A](https://img.shields.io/badge/M%C3%A9todo-ED2A-blueviolet.svg)](skills/cuando-usar-ia-metodo-ed2a/)
 [![Licencia: CC BY-NC-SA 4.0](https://img.shields.io/badge/Licencia-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
@@ -9,6 +12,10 @@
 Colección de **15 skills para agentes de IA** (Claude, y compatibles) creadas por **[Javier Garzás](https://www.javiergarzas.com/) — 233 Academy** y compartidas de forma abierta con la comunidad.
 
 Cada skill encapsula una forma de trabajar probada y con criterio profesional, para que el agente no te devuelva un resultado genérico, sino uno que sigue un método real. Juntas forman **un método de producto de punta a punta: del riesgo a la spec.**
+
+> ### 💬 Únete gratis a la comunidad
+> **👉 [Entra al grupo de WhatsApp (gratis)](https://api.whatsapp.com/send/?phone=34684724916&text=Hola%2C+quiero+unirme+a+la+comunidad&type=phone_number&app_absent=0)** — la forma más directa de estar dentro.
+> ✉️ Suscríbete a la **[newsletter semanal de Javier Garzás](https://www.javiergarzas.com)** · 🎓 Fórmate en **[233 Academy](https://233academy.com)**.
 
 ---
 
@@ -127,9 +134,17 @@ Ya instaladas, Claude **las activa solas** cuando tu petición encaja, o puedes 
 
 ---
 
+## 🚀 Sigue aprendiendo · únete a la comunidad
+
+- 💬 **[Grupo de WhatsApp (gratis)](https://api.whatsapp.com/send/?phone=34684724916&text=Hola%2C+quiero+unirme+a+la+comunidad&type=phone_number&app_absent=0)** — lo más importante: entra y forma parte de la comunidad, sin coste.
+- ✉️ **[Newsletter semanal](https://www.javiergarzas.com)** — el conocimiento de Javier Garzás cada semana, en javiergarzas.com.
+- 🎓 **[233 Academy](https://233academy.com)** — formación en IA, producto y agilidad.
+
+---
+
 ## Autoría y licencia
 
-Creado por **Javier Garzás — [233 Academy](https://233gradosdeti.com/)**.
+Creado por **Javier Garzás — [233 Academy](https://233academy.com)**.
 
 Este material se publica bajo licencia **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)](LICENSE)**:
 

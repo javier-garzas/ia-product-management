@@ -117,7 +117,14 @@ Copy-Item -Recurse -Force skills\* "$env:USERPROFILE\.claude\skills\"
 
 ---
 
-## 8. Licencia y créditos
+## 8. Comunidad (gratis) y novedades
+
+- 💬 **[Grupo de WhatsApp (gratis)](https://api.whatsapp.com/send/?phone=34684724916&text=Hola%2C+quiero+unirme+a+la+comunidad&type=phone_number&app_absent=0)** — dudas, novedades y comunidad.
+- ✉️ **[Newsletter semanal](https://www.javiergarzas.com)** · 🎓 **[233 Academy](https://233academy.com)**.
+
+---
+
+## 9. Licencia y créditos
 
 Skills creadas por **Javier Garzás — 233 Academy**, bajo licencia **CC BY-NC-SA 4.0** (úsalas y adáptalas citando la autoría; no comercial). Ojo: la **[Guía de OKRs](skills/crear-y-revisar-okrs/referencia/guia-okrs.md)** incluida tiene **su propia licencia** (CC BY-NC-ND). Ver el [README](README.md) para el detalle.
 
