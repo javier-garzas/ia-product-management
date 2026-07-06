@@ -83,13 +83,13 @@ Te dejo mis redes para estar en contacto:
 
 Libros relacionados
 
-Si no estás familiarizado con Scrum, o con la Agilidad en general, te recomiendo leer antes estos libros, podrás encontrarlos en: [233gradosdeti.com/publicaciones-233/](http://233gradosdeti.com/publicaciones-233/)
+Si no estás familiarizado con Scrum, o con la Agilidad en general, te recomiendo leer antes estos libros, podrás encontrarlos en:
 
-[23 Historias de Equipos Ágiles.](http://233gradosdeti.com/publicaciones-233/23-historias-equipos-agiles/)
+23 Historias de Equipos Ágiles.
 
-[Peopleware y Equipos Ágiles.](http://233gradosdeti.com/publicaciones-233/peopleware-equipos-agiles-y-management-3-0/)
+Peopleware y Equipos Ágiles.
 
-[Gestión de](http://233gradosdeti.com/publicaciones-233/libro-gestion-de-proyectos-agil/) [proyectos](http://233gradosdeti.com/publicaciones-233/libro-gestion-de-proyectos-agil/) [ Ágil.... y las experiencias de más de 12 años de proyectos ágiles.](http://233gradosdeti.com/publicaciones-233/libro-gestion-de-proyectos-agil/)
+Gestión de proyectos  Ágil.... y las experiencias de más de 12 años de proyectos ágiles.
 
 ------------------------------------------------------------------------
 
@@ -328,7 +328,7 @@ La «publicidad» del modelo y la mayoría de información disponible vienen de 
 
 En 2014 Spotify dejó de usar los OKR. Según se cuenta en la información que hay disponible, los usaron un tiempo y vieron que no les encajaban del todo (la de abajo es una diapositiva de Kniberg).
 
-Te dejo alguna referencia sobre las críticas a los OKR por parte de Spotify, [como esta](https://hrblog.spotify.com/2016/08/15/our-beliefs/)  o [esta otra](https://www.slideshare.net/peterantman/growing-up-with-agile-how-the-spotify-model-has-evolved) . Y, así, sintetizando, estas son algunas de las razones por las que decidieron dejar de usarlos:
+Te dejo alguna referencia sobre las críticas a los OKR por parte de Spotify, [esta otra](https://www.slideshare.net/peterantman/growing-up-with-agile-how-the-spotify-model-has-evolved) . Y, así, sintetizando, estas son algunas de las razones por las que decidieron dejar de usarlos:
 
 - Eran demasiado pesados
 - Estresantes

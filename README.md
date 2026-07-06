@@ -153,7 +153,7 @@ Este material se publica bajo licencia **[Creative Commons Attribution 4.0 (CC B
 
 > 📘 La [Guía de OKRs](skills/crear-y-revisar-okrs/referencia/guia-okrs.md), al ser un **libro publicado**, conserva su licencia original **CC BY-NC-ND 4.0**. El resto del repo es CC BY 4.0.
 
-¿Dudas o colaboración? [hello@233academy.com](mailto:hello@233academy.com).
+¿Dudas o colaboración? [hello@233gradosdeti.com](mailto:hello@233gradosdeti.com).
 
 ---
 

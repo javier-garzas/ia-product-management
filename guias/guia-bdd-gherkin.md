@@ -776,11 +776,11 @@ Ferguson, J.S., (2015) BDD in Action, 2015 from <https://www.amazon.com/BDD-Acti
 
 Gherkin. Gherkin., from[ https://github.com/cucumber/cucumber/wiki/Gherkin](https://github.com/cucumber/cucumber/wiki/Gherkin)
 
-Gherkin Editor. Gherkin Editor., from <https://gherkineditor.codeplex.com/wikipage?title=Overview&referringTitle=Home>
+Gherkin Editor. Gherkin Editor.
 
 Gherkin Languajes. gherkin/gherkin-languages.json., from <https://github.com/cucumber/gherkin/blob/master/gherkin-languages.json>
 
-Hellesøy, A. (2014). The world's most misunderstood collaboration tool., 2014, from <https://cucumber.io/blog/2014/03/03/the-worlds-most-misunderstood-collaboration-tool>
+Hellesøy, A. (2014). The world's most misunderstood collaboration tool., 2014
 
 Humanizing Work (2011).  Cucumber Regular Expressions Cheat Sheet, 2011, from [http://agileforall.com/wp-content/uploads/2011/08/Cucumber-Regular-Expressions-Cheat-Sheet.pdf ](http://agileforall.com/wp-content/uploads/2011/08/Cucumber-Regular-Expressions-Cheat-Sheet.pdf)
 
