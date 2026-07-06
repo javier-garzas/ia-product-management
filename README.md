@@ -121,6 +121,8 @@ Este material se publica bajo licencia **[Creative Commons Attribution-NonCommer
 
 Si quieres un uso comercial, escribe a [hello@233gradosdeti.com](mailto:hello@233gradosdeti.com).
 
+> **Excepción — material incluido con licencia propia:** la [Guía de OKRs](skills/crear-y-revisar-okrs/referencia/guia-okrs.md) (base de conocimiento de la skill `crear-y-revisar-okrs`) se publicó bajo **CC BY-NC-ND 4.0** (Reconocimiento-NoComercial-SinObraDerivada), distinta de la licencia del resto del repo. Se incluye por su autor, Javier Garzás. © 233gradosdeTI.
+
 ---
 
 _Que la IAgilidad te acompañe._
