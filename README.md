@@ -22,6 +22,7 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 | [`crear-historias-de-usuario`](skills/crear-historias-de-usuario/) | Aterriza **una única historia de usuario** hasta dejarla lista para que un equipo la coja en un sprint: story statement, criterios de aceptación en Gherkin (happy path + errores), Definition of Ready, Definition of Done, scope, dependencias y validación INVEST. |
 | [`mapa-viaje-cliente`](skills/mapa-viaje-cliente/) | Crea un **mapa del viaje del cliente** de principio a fin: etapas, puntos de contacto, acciones, emociones, puntos de dolor y oportunidades, más los momentos críticos (momento ajá, momentos de la verdad, churn) y las mejoras priorizadas. Para encontrar dónde se rompe la experiencia y mejorar conversión y retención. |
 | [`mapa-de-historias-usuario`](skills/mapa-de-historias-usuario/) | Crea un **mapa de historias de usuario** (user story mapping de Jeff Patton): columna vertebral de actividades → pasos → tareas, con líneas de release que separan el MVP de lo que viene después. Para construir entendimiento compartido y priorizar el backlog en torno al viaje del usuario. |
+| [`hipotesis-de-epica`](skills/hipotesis-de-epica/) | Enmarca una épica como una **hipótesis testeable** (si/entonces): acción, persona y resultado esperado, más los experimentos ligeros para validarla y las medidas de éxito antes de construir. Para tratar las iniciativas como apuestas con criterios de cierre, no como promesas. |
 
 _La lista irá creciendo._
 
