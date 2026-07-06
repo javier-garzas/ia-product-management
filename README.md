@@ -28,6 +28,7 @@ Las skills no son piezas sueltas: cubren el recorrido completo de una decisión 
 ```mermaid
 flowchart TD
     A["🚪 cuando-usar-ia-metodo-ed2a<br/>¿Toca IA? — método ED2A"]
+    T["🌳 arbol-oportunidad-solucion<br/>Estructurar el discovery"]
     P["🎯 priorizar-funcionalidades<br/>¿En qué trabajar primero?"]
     B["✅ validar-idea-antes-de-construir<br/>¿Merece construirse?"]
     R["🗓️ planificacion-roadmap<br/>Secuenciar en releases"]
@@ -36,10 +37,10 @@ flowchart TD
     G["✂️ division-de-historias-usuario<br/>¿Es demasiado grande? Divídela"]
     E["📝 crear-historias-de-usuario<br/>Cada historia, lista para el sprint"]
     F["📐 crear-spec-sdd<br/>Spec para que la IA lo construya"]
-    A --> P --> B --> R --> C --> D --> G --> E --> F
+    A --> T --> P --> B --> R --> C --> D --> G --> E --> F
 ```
 
-**Decidir y reducir riesgo** (¿debo hacerlo?): `ED2A` → `priorizar` → `validar-idea`.
+**Decidir y descubrir** (¿qué problema, debo hacerlo?): `ED2A` → `arbol-oportunidad-solucion` → `priorizar` → `validar-idea`.
 **Planificar** (¿en qué orden?): `planificacion-roadmap`.
 **Diseñar y especificar** (hacerlo bien): `mapa-viaje-cliente` → `mapa-de-historias-usuario` → `division-de-historias-usuario` → `crear-historias-de-usuario` → `crear-spec-sdd`.
 
@@ -58,6 +59,7 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 | Skill | Qué hace |
 |-------|----------|
 | [`cuando-usar-ia-metodo-ed2a`](skills/cuando-usar-ia-metodo-ed2a/) ⭐ | Decide **cuándo usar IA (y cuándo no)** con el método propio **ED2A** (Eliminar · Delegar · Agilizar · Automatizar → IA): la IA como último recurso. Incluye el filtro de las 4 variables y los principios de estrategia de IA de referentes del sector. Contra el "IA por el simple hecho de usar IA". |
+| [`arbol-oportunidad-solucion`](skills/arbol-oportunidad-solucion/) | Construye un **Árbol de Oportunidad-Solución** (OST de Teresa Torres) que conecta un resultado deseado con oportunidades del cliente, soluciones candidatas y experimentos. Para estructurar el discovery y no saltar directo a la solución. Prioriza problemas, no funcionalidades. |
 | [`priorizar-funcionalidades`](skills/priorizar-funcionalidades/) | Prioriza un **backlog de ideas** por impacto, esfuerzo, riesgo y alineación estratégica, y devuelve las **5 principales** con justificación, trade-offs y qué se despriorizó. Usa marcos probados (Opportunity Score de Dan Olsen, ICE, RICE). Para decidir en qué trabajar primero con criterio, no por quién grita más. |
 | [`validar-idea-antes-de-construir`](skills/validar-idea-antes-de-construir/) | Convierte una idea o iniciativa en una **hipótesis testeable** (si/entonces): acción, persona y resultado esperado, más los experimentos ligeros para validarla y las medidas de éxito **antes de construir**. Trata las iniciativas como apuestas con criterios de cierre, no como promesas. |
 | [`planificacion-roadmap`](skills/planificacion-roadmap/) | Convierte la estrategia en un **roadmap orientado a resultados**: reúne entradas, define épicas como hipótesis, prioriza, secuencia en releases (Now/Next/Later) y alinea a stakeholders. Un workflow de 5 fases contra el roadmap "fábrica de funcionalidades". Orquesta `priorizar-funcionalidades` y `validar-idea-antes-de-construir`. |
