@@ -95,24 +95,20 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 
 ## Cómo usar una skill
 
-### En Claude Code
+📘 **Guía completa paso a paso: [CÓMO-USAR.md](COMO-USAR.md)** (instalación en Claude Code y en la app de Claude, cómo actualizar y solución de problemas).
 
-1. Clona este repositorio (o descárgalo como ZIP):
-   ```bash
-   git clone https://github.com/javier-garzas/ia-product-management.git
-   ```
-2. Copia la carpeta de la skill que quieras dentro de tu carpeta de skills personales:
-   ```bash
-   cp -r ia-product-management/skills/cuando-usar-ia-metodo-ed2a ~/.claude/skills/
-   ```
-3. Ya está. En tu próxima sesión, el agente activará la skill cuando la tarea encaje, o puedes invocarla con `/cuando-usar-ia-metodo-ed2a`.
+Resumen rápido para **Claude Code**:
 
-### En Claude (app de escritorio / web)
+```bash
+git clone https://github.com/javier-garzas/ia-product-management.git
+mkdir -p ~/.claude/skills
+cp -r ia-product-management/skills/* ~/.claude/skills/     # todas; o una sola carpeta
+```
+En Windows (PowerShell): `Copy-Item -Recurse ia-product-management\skills\* "$env:USERPROFILE\.claude\skills\"`
 
-1. Descarga la carpeta de la skill (por ejemplo `cuando-usar-ia-metodo-ed2a/`) o el repo completo.
-2. En **Ajustes → Capabilities / Skills**, súbela como skill personalizada.
+Ya instaladas, Claude **las activa solas** cuando tu petición encaja, o puedes invocarlas con `/nombre-de-la-skill`.
 
-> La carpeta de skills personales en Claude Code suele ser `~/.claude/skills/` (macOS/Linux) o `%USERPROFILE%\.claude\skills\` (Windows).
+> ⚠️ Copia siempre la **carpeta completa** de la skill (no solo el `SKILL.md`): algunas incluyen ficheros de apoyo.
 
 ---
 
