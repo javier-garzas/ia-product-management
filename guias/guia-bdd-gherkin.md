@@ -1,14 +1,14 @@
 <!--
   Guia BDD y Gherkin - Javier Garzas / javiergarzas.com.
   Incluida en este repositorio por su autor.
-  Licencia: CC BY-NC-SA 4.0 (la misma que el repo).
+  Licencia: CC BY-NC-ND 4.0 (la misma que el repo).
   Texto convertido desde el documento original (sin imagenes).
 -->
 
 # Guía BDD y Gherkin
 
 > **📖 Guía** de la sección [Guías](README.md), por **Javier Garzás** — [javiergarzas.com](https://www.javiergarzas.com).
-> Licencia **CC BY-NC-SA 4.0** (como el repositorio). Complementa a las skills [`crear-historias-de-usuario`](../skills/crear-historias-de-usuario/) y [`crear-spec-sdd`](../skills/crear-spec-sdd/), que usan criterios de aceptación en Gherkin.
+> Licencia **CC BY-NC-ND 4.0** (como el repositorio). Complementa a las skills [`crear-historias-de-usuario`](../skills/crear-historias-de-usuario/) y [`crear-spec-sdd`](../skills/crear-spec-sdd/), que usan criterios de aceptación en Gherkin.
 
 ---
 
