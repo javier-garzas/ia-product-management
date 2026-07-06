@@ -126,6 +126,6 @@ Copy-Item -Recurse -Force skills\* "$env:USERPROFILE\.claude\skills\"
 
 ## 9. Licencia y créditos
 
-Skills y guías creadas por **Javier Garzás — 233 Academy**, bajo licencia **CC BY-NC-ND 4.0** (úsalas y compártelas citando la autoría; sin obras derivadas y sin uso comercial). Ver el [README](README.md) para el detalle. Uso comercial: [hello@233academy.com](mailto:hello@233academy.com).
+Creadas por **Javier Garzás — 233 Academy**, bajo licencia **CC BY 4.0** (úsalas, compártelas, adáptalas y tradúcelas —incluso comercialmente— con una única condición: **citar la autoría**). Excepción: la **[Guía de OKRs](skills/crear-y-revisar-okrs/referencia/guia-okrs.md)** es un libro y conserva su licencia original **CC BY-NC-ND 4.0**. Dudas: [hello@233academy.com](mailto:hello@233academy.com).
 
 _Que la IAgilidad te acompañe._

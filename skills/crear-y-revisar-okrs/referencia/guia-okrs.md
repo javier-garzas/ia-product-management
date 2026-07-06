@@ -11,7 +11,7 @@
 > **📖 Base de conocimiento** de la skill [`crear-y-revisar-okrs`](../SKILL.md).
 > Guía de **Javier Garzás** · edición **233gradosdeTI** · v1.0 (abril 2021).
 >
-> **Licencia:** **CC BY-NC-ND 4.0** (Reconocimiento-NoComercial-SinObraDerivada), la misma que el resto del repositorio. Se incluye **por su autor** como base de conocimiento. © 233gradosdeTI / Javier Garzás.
+> **Licencia:** este libro conserva su licencia original **CC BY-NC-ND 4.0** (Reconocimiento-NoComercial-SinObraDerivada), publicado en 2021. Se incluye **por su autor** como base de conocimiento. © 233gradosdeTI / Javier Garzás.
 
 ---
 

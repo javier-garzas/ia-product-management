@@ -7,7 +7,7 @@
 [![233 Academy](https://img.shields.io/badge/Formaci%C3%B3n-233%20Academy-ff6a00.svg)](https://233academy.com)
 [![Skills](https://img.shields.io/badge/Skills-15-2ea44f.svg)](#skills-disponibles)
 [![Método ED2A](https://img.shields.io/badge/M%C3%A9todo-ED2A-blueviolet.svg)](skills/cuando-usar-ia-metodo-ed2a/)
-[![Licencia: CC BY-NC-ND 4.0](https://img.shields.io/badge/Licencia-CC%20BY--NC--ND%204.0-lightgrey.svg)](LICENSE)
+[![Licencia: CC BY 4.0](https://img.shields.io/badge/Licencia-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 
 Colección de **15 skills para agentes de IA** (Claude, y compatibles) creadas por **[Javier Garzás](https://www.javiergarzas.com/) — 233 Academy** y compartidas de forma abierta con la comunidad.
 
@@ -146,13 +146,14 @@ Ya instaladas, Claude **las activa solas** cuando tu petición encaja, o puedes 
 
 Creado por **Javier Garzás — [233 Academy](https://233academy.com)**.
 
-Todo el material (skills y guías) se publica bajo licencia **[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0)](LICENSE)**:
+Este material se publica bajo licencia **[Creative Commons Attribution 4.0 (CC BY 4.0)](LICENSE)** — la licencia abierta que más ayuda a que esto crezca:
 
-- ✅ Puedes **usarlo y compartirlo** libremente, **citando la autoría**.
-- ❌ **No puedes crear obras derivadas** (adaptaciones/modificaciones) para redistribuir.
-- ❌ **No puedes usarlo con fines comerciales** sin permiso.
+- ✅ Puedes **usarlo, compartirlo, adaptarlo y traducirlo**, incluso con fines comerciales.
+- ☝️ La **única condición**: **citar la autoría** (Javier Garzás — 233 Academy).
 
-Si quieres un uso comercial, escribe a [hello@233academy.com](mailto:hello@233academy.com).
+> 📘 La [Guía de OKRs](skills/crear-y-revisar-okrs/referencia/guia-okrs.md), al ser un **libro publicado**, conserva su licencia original **CC BY-NC-ND 4.0**. El resto del repo es CC BY 4.0.
+
+¿Dudas o colaboración? [hello@233academy.com](mailto:hello@233academy.com).
 
 ---
 
