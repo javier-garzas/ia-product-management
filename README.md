@@ -2,11 +2,11 @@
 
 > ### 🧭 Del problema del cliente a la spec — con criterio.
 
-[![Skills](https://img.shields.io/badge/Skills-12-2ea44f.svg)](#skills-disponibles)
+[![Skills](https://img.shields.io/badge/Skills-13-2ea44f.svg)](#skills-disponibles)
 [![Método ED2A](https://img.shields.io/badge/M%C3%A9todo-ED2A-blueviolet.svg)](skills/cuando-usar-ia-metodo-ed2a/)
 [![Licencia: CC BY-NC-SA 4.0](https://img.shields.io/badge/Licencia-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 
-Colección de **12 skills para agentes de IA** (Claude, y compatibles) creadas por **[Javier Garzás](https://www.javiergarzas.com/) — 233 Academy** y compartidas de forma abierta con la comunidad.
+Colección de **13 skills para agentes de IA** (Claude, y compatibles) creadas por **[Javier Garzás](https://www.javiergarzas.com/) — 233 Academy** y compartidas de forma abierta con la comunidad.
 
 Cada skill encapsula una forma de trabajar probada y con criterio profesional, para que el agente no te devuelva un resultado genérico, sino uno que sigue un método real. Juntas forman **un método de producto de punta a punta: del riesgo a la spec.**
 
@@ -57,6 +57,8 @@ flowchart TD
 
 No hace falta usarlas en orden: cada una vale por sí sola. El flujo solo muestra cómo se apoyan entre ellas.
 
+> 🧩 **Aparte del flujo:** [`diseno-organizacional-agil`](skills/diseno-organizacional-agil/) es una skill **complementaria** que opera a nivel de **organización y equipos** (unFix + Team Topologies), no de feature, por eso no aparece en esta línea.
+
 ---
 
 ## ¿Qué es una skill?
@@ -81,8 +83,9 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 | [`division-de-historias-usuario`](skills/division-de-historias-usuario/) | Divide una **historia o épica demasiado grande** en historias más pequeñas, verticales y entregables de forma independiente, con los 8 patrones de división probados (flujo, reglas, datos, criterios de aceptación, esfuerzo, dependencias, DevOps y actos de descubrimiento). Para bajar el tamaño de lote, reducir riesgo y mantener el flujo. |
 | [`crear-historias-de-usuario`](skills/crear-historias-de-usuario/) | Aterriza **una única historia de usuario** hasta dejarla lista para que un equipo la coja en un sprint: story statement, criterios de aceptación en Gherkin (happy path + errores), Definition of Ready, Definition of Done, scope, dependencias y validación INVEST. |
 | [`crear-spec-sdd`](skills/crear-spec-sdd/) | Convierte una idea de feature en un `spec.md` completo listo para **SDD (Spec-Driven Development)**, siguiendo el estándar de GitHub Spec Kit: historias priorizadas con criterios de aceptación en Gherkin, requisitos funcionales, entidades, criterios de éxito medibles y suposiciones. |
+| [`diseno-organizacional-agil`](skills/diseno-organizacional-agil/) 🧩 | *(Complementaria — nivel organización, fuera del flujo anterior.)* Diseña y diagnostica tus **equipos** con **unFix + Team Topologies**: clasifica cada equipo (Value Stream, Platform, Facilitation o Capability Crew) con un workflow de preguntas y lo dibuja en Mermaid con colores, y resuelve problemas de equipos (manzana podrida, estancamiento, aislamiento, equipo demasiado grande) con Dynamic Reteaming. |
 
-**12 skills** — y la lista irá creciendo.
+**13 skills** — y la lista irá creciendo.
 
 ---
 
