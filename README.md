@@ -67,6 +67,8 @@ No hace falta usarlas en orden: cada una vale por sí sola. El flujo solo muestr
 
 Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseñan al agente **cómo hacer bien una tarea concreta** (con su método, sus pasos, su plantilla y sus antipatrones). Cuando la tienes instalada, el agente la activa sola en cuanto detecta que la tarea encaja con su descripción.
 
+♻️ **Son portables — no es solo para Claude.** El `SKILL.md` es Markdown plano: su método sirve con **cualquier IA** (Claude, ChatGPT/Codex, Gemini, Cursor, Copilot…), pegándolo como contexto. Y lo que producen —por ejemplo un `spec.md`— es **agnóstico de herramienta**: lo usas con el agente de coding que quieras, hoy o dentro de un año. Nada de _lado oscuro_ del vendor lock-in.
+
 ---
 
 ## Skills disponibles
@@ -107,6 +109,8 @@ cp -r ia-product-management/skills/* ~/.claude/skills/     # todas; o una sola c
 En Windows (PowerShell): `Copy-Item -Recurse ia-product-management\skills\* "$env:USERPROFILE\.claude\skills\"`
 
 Ya instaladas, Claude **las activa solas** cuando tu petición encaja, o puedes invocarlas con `/nombre-de-la-skill`.
+
+¿No usas Claude? También valen: pega el `SKILL.md` como contexto en **cualquier IA** (ChatGPT/Codex, Gemini, Cursor, Copilot…). Ver [uso portable](COMO-USAR.md#4-usar-las-skills-con-otras-ias-son-portables).
 
 > ⚠️ Copia siempre la **carpeta completa** de la skill (no solo el `SKILL.md`): algunas incluyen ficheros de apoyo.
 
