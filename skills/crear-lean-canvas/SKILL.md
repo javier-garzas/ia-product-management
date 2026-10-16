@@ -119,7 +119,7 @@ Early adopters: PMs inquietos que ya trastean con IA y quieren método.
 
 PROPUESTA DE VALOR ÚNICA
 "Aplica IA en tu trabajo esta semana, sin perder el rigor."
-· método propio (ED2A), no hype  · casos reales de su sector  · en píldoras cortas
+· método propio (E2AD), no hype  · casos reales de su sector  · en píldoras cortas
 
 SOLUCIÓN
 1. Rutas por rol (ataca "no se aplica a lo mío").
@@ -141,7 +141,7 @@ Norte: % de alumnos que aplican algo en su trabajo en 30 días.
 Soporte: activación = 1ª lección/altas · retención D30 = activos día 30 / altas.
 
 VENTAJA INJUSTA
-Marca personal + método propio (ED2A) + comunidad viva. Refuerzo 90 días:
+Marca personal + método propio (E2AD) + comunidad viva. Refuerzo 90 días:
 publicar casos de éxito reales y ampliar la comunidad.
 ```
 

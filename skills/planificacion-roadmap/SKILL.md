@@ -42,7 +42,7 @@ En **233 Academy**, Javier Garzás lo avisa, Rebelde IAgil: *un roadmap de funci
 
 ### Dónde encaja respecto a sus skills hermanas
 
-Este workflow **orquesta** varias skills del repo: en la Fase 2 usa el formato de hipótesis de `validar-idea-antes-de-construir`; en la Fase 3, el de `priorizar-funcionalidades`. Y aguas abajo, cada épica del roadmap se diseña con `mapa-viaje-cliente`, `mapa-de-historias-usuario`, `division-de-historias-usuario`, `crear-historias-de-usuario` y `crear-spec-sdd`. Si el roadmap incluye features de IA, pásalas antes por `cuando-usar-ia-metodo-ed2a`.
+Este workflow **orquesta** varias skills del repo: en la Fase 2 usa el formato de hipótesis de `validar-idea-antes-de-construir`; en la Fase 3, el de `priorizar-funcionalidades`. Y aguas abajo, cada épica del roadmap se diseña con `mapa-viaje-cliente`, `mapa-de-historias-usuario`, `division-de-historias-usuario`, `crear-historias-de-usuario` y `crear-spec-sdd`. Si el roadmap incluye features de IA, pásalas antes por `cuando-usar-ia-metodo-e2ad`.
 
 ### Cuándo usarlo / cuándo no
 
@@ -117,7 +117,7 @@ SIGUIENTE (alta confianza)
 
 DESPUÉS (exploración · menor confianza)
 - App móvil nativa (depende del rediseño de API)
-- Recomendaciones con IA (pasar antes por ED2A + validar como experimento)
+- Recomendaciones con IA (pasar antes por E2AD + validar como experimento)
 - Soporte multi-idioma
 
 FUERA DEL ROADMAP (y por qué)

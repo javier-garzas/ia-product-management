@@ -6,7 +6,7 @@
 [![Newsletter](https://img.shields.io/badge/Newsletter-javiergarzas.com-1a73e8.svg)](https://www.javiergarzas.com)
 [![233 Academy](https://img.shields.io/badge/Formaci%C3%B3n-233%20Academy-ff6a00.svg)](https://233academy.com)
 [![Skills](https://img.shields.io/badge/Skills-15-2ea44f.svg)](#skills-disponibles)
-[![Método ED2A](https://img.shields.io/badge/M%C3%A9todo-ED2A-blueviolet.svg)](skills/cuando-usar-ia-metodo-ed2a/)
+[![Método E2AD](https://img.shields.io/badge/M%C3%A9todo-E2AD-blueviolet.svg)](skills/cuando-usar-ia-metodo-e2ad/)
 [![Licencia: CC BY 4.0](https://img.shields.io/badge/Licencia-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 
 Colección de **15 skills para agentes de IA** (Claude, y compatibles) creadas por **[Javier Garzás](https://www.javiergarzas.com/) — 233 Academy** y compartidas de forma abierta con la comunidad.
@@ -19,16 +19,16 @@ Cada skill encapsula una forma de trabajar probada y con criterio profesional, p
 
 ---
 
-## ⭐ El método ED2A — la IA como último recurso, no el primero
+## ⭐ El método E2AD: la IA como último recurso, no el primero
 
-El corazón de este repo es **ED2A**, el método propio de Javier Garzás para no caer en el _"IA por el simple hecho de usar IA"_:
+El corazón de este repo es **E2AD**, el método propio de Javier Garzás (capítulo 16 de su libro *Irremplazable en la era de la IA*) para no caer en el _"IA por el simple hecho de usar IA"_:
 
-> **Antes de llevar nada a la IA, súbelo por la escalera:**
-> **E**liminar · **D**elegar · **A**gilizar · **A**utomatizar → y **solo entonces, IA.**
+> **Antes de llevar nada a la IA, pásalo por cuatro filtros, en orden:**
+> **E**liminar · **A**gilizar · **A**utomatizar · **D**elegar
 
-Cada escalón se descarta antes de subir al siguiente, y solo automatizas o aplicas IA a lo que pasa el **filtro de las 4 variables** (aporta valor · se hace con frecuencia · lleva tiempo · es explicable a un becario). Nada de automatizar algo de 3 segundos.
+Lo que no aporta valor se elimina; lo que tiene pasos de más se agiliza; solo se automatiza (con o sin IA) lo que pasa el **semáforo** (procedimentable · se hace muchas veces · lleva tiempo, de 1 a 5); y lo que queda se delega. Automatizar un desperdicio es fabricar basura más rápido.
 
-👉 **[Abrir la skill `cuando-usar-ia-metodo-ed2a`](skills/cuando-usar-ia-metodo-ed2a/)**
+👉 **[Abrir la skill `cuando-usar-ia-metodo-e2ad`](skills/cuando-usar-ia-metodo-e2ad/)**
 
 ---
 
@@ -41,7 +41,7 @@ flowchart TD
     LC["💡 crear-lean-canvas<br/>Modelo de negocio en 1 página"]
     IN["🚀 facilitar-inception-agil<br/>Alinear el arranque del proyecto"]
     OK["📈 crear-y-revisar-okrs<br/>Fijar los resultados (OKRs)"]
-    A["🚪 cuando-usar-ia-metodo-ed2a<br/>¿Toca IA? — método ED2A"]
+    A["🚪 cuando-usar-ia-metodo-e2ad<br/>¿Toca IA? Método E2AD"]
     T["🌳 arbol-oportunidad-solucion<br/>Estructurar el discovery"]
     P["🎯 priorizar-funcionalidades<br/>¿En qué trabajar primero?"]
     B["✅ validar-idea-antes-de-construir<br/>¿Merece construirse?"]
@@ -60,7 +60,7 @@ flowchart TD
 
 **Punto de partida** (arranque): `crear-lean-canvas` — el modelo de negocio en una página · `facilitar-inception-agil` — alinear a los stakeholders al iniciar el proyecto.
 **Estrategia** (metas): `crear-y-revisar-okrs` — fija los resultados que persiguen el discovery y el roadmap.
-**Decidir y descubrir** (¿qué problema, debo hacerlo?): `ED2A` → `arbol-oportunidad-solucion` → `priorizar` → `validar-idea`.
+**Decidir y descubrir** (¿qué problema, debo hacerlo?): `E2AD` → `arbol-oportunidad-solucion` → `priorizar` → `validar-idea`.
 **Planificar** (¿en qué orden?): `planificacion-roadmap`.
 **Diseñar y especificar** (hacerlo bien): `mapa-viaje-cliente` → `mapa-de-historias-usuario` → `division-de-historias-usuario` → `crear-historias-de-usuario` → `crear-spec-sdd`.
 
@@ -85,7 +85,7 @@ Una skill es una carpeta con un fichero `SKILL.md`: instrucciones que le enseña
 | [`crear-lean-canvas`](skills/crear-lean-canvas/) | Guía **paso a paso, en conversación**, para construir un **Lean Canvas** (Ash Maurya): rellena los 9 bloques uno a uno con preguntas y ejemplos, y entrega el lienzo completo. El punto de partida cuando arrancas un negocio o producto nuevo y quieres su modelo en una página. |
 | [`facilitar-inception-agil`](skills/facilitar-inception-agil/) | Facilita un **taller de Inception Ágil** paso a paso (basado en *The Agile Samurai* con adaptaciones de Javier Garzás): 9 subtalleres —por qué estamos aquí, elevator pitch, la caja, lista de NO, concepto, los vecinos, qué nos quita el sueño, tamaño y sesión de sinceridad— para alinear a los stakeholders al arrancar un proyecto. |
 | [`crear-y-revisar-okrs`](skills/crear-y-revisar-okrs/) | Asistente de **OKRs** con el método probado de Javier Garzás: **crea** un OKR (desde visión/misión/estrategia y el reto del trimestre), lo **revisa** con checklist, o **resuelve dudas**. Objetivo cualitativo + máx. 3 KR que son outcomes de impacto (no tareas ni KPIs), con 3 métodos de medición (Radical Focus, Google/Doerr, Lamorte). |
-| [`cuando-usar-ia-metodo-ed2a`](skills/cuando-usar-ia-metodo-ed2a/) ⭐ | Decide **cuándo usar IA (y cuándo no)** con el método propio **ED2A** (Eliminar · Delegar · Agilizar · Automatizar → IA): la IA como último recurso. Incluye el filtro de las 4 variables y los principios de estrategia de IA de referentes del sector. Contra el "IA por el simple hecho de usar IA". |
+| [`cuando-usar-ia-metodo-e2ad`](skills/cuando-usar-ia-metodo-e2ad/) ⭐ | Decide **cuándo usar IA (y cuándo no)** con el método propio **E2AD** (Eliminar · Agilizar · Automatizar · Delegar): la IA como último recurso. Incluye el semáforo de automatización, lo que no se le da a la IA y los principios de estrategia de IA de referentes del sector. Contra el "IA por el simple hecho de usar IA". |
 | [`arbol-oportunidad-solucion`](skills/arbol-oportunidad-solucion/) | Construye un **Árbol de Oportunidad-Solución** (OST de Teresa Torres) que conecta un resultado deseado con oportunidades del cliente, soluciones candidatas y experimentos. Para estructurar el discovery y no saltar directo a la solución. Prioriza problemas, no funcionalidades. |
 | [`priorizar-funcionalidades`](skills/priorizar-funcionalidades/) | Prioriza un **backlog de ideas** por impacto, esfuerzo, riesgo y alineación estratégica, y devuelve las **5 principales** con justificación, trade-offs y qué se despriorizó. Usa marcos probados (Opportunity Score de Dan Olsen, ICE, RICE). Para decidir en qué trabajar primero con criterio, no por quién grita más. |
 | [`validar-idea-antes-de-construir`](skills/validar-idea-antes-de-construir/) | Convierte una idea o iniciativa en una **hipótesis testeable** (si/entonces): acción, persona y resultado esperado, más los experimentos ligeros para validarla y las medidas de éxito **antes de construir**. Trata las iniciativas como apuestas con criterios de cierre, no como promesas. |
