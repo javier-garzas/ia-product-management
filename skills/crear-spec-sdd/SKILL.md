@@ -1,7 +1,7 @@
 ---
 name: crear-spec-sdd
 author: Javier Garzás — 233 Academy
-description: Convierte una idea de feature en un spec.md completo, listo para SDD (Spec-Driven Development). Sigue el estándar de GitHub Spec Kit: historias priorizadas con criterios de aceptación en Gherkin, requisitos funcionales, entidades, criterios de éxito medibles y suposiciones. Céntrate en el QUÉ y el PORQUÉ, nunca en el CÓMO técnico. Úsala cuando tengas una feature o un problema y quieras dejar la especificación que más adelante se le pasará a una herramienta de coding con IA.
+description: "Convierte una idea de feature en un spec.md completo, listo para SDD (Spec-Driven Development). Sigue el estándar de GitHub Spec Kit: historias priorizadas con criterios de aceptación en Gherkin, requisitos funcionales, entidades, criterios de éxito medibles y suposiciones. Céntrate en el QUÉ y el PORQUÉ, nunca en el CÓMO técnico. Úsala cuando tengas una feature o un problema y quieras dejar la especificación que más adelante se le pasará a una herramienta de coding con IA."
 ---
 
 ## Propósito
