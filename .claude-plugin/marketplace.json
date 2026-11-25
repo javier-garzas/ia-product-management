@@ -1,0 +1,34 @@
+{
+  "name": "ia-product-management",
+  "owner": {
+    "name": "Javier Garzás · 233 Academy",
+    "url": "https://www.javiergarzas.com"
+  },
+  "metadata": {
+    "description": "Skills de IA para Product Management y Spec-Driven Development, de Javier Garzás (233 Academy).",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ia-product-management",
+      "source": "./",
+      "description": "15 skills de producto: del riesgo a la spec. E2AD, Lean Canvas, OKRs, discovery, priorización, roadmap, historias de usuario y spec SDD.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Javier Garzás · 233 Academy"
+      },
+      "homepage": "https://github.com/javier-garzas/ia-product-management",
+      "repository": "https://github.com/javier-garzas/ia-product-management",
+      "license": "CC-BY-4.0",
+      "category": "productivity",
+      "tags": [
+        "product-management",
+        "spec-driven-development",
+        "historias-de-usuario",
+        "okrs",
+        "discovery",
+        "roadmap"
+      ]
+    }
+  ]
+}

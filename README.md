@@ -117,6 +117,21 @@ Además de las skills (para agentes), el repo incluye **guías para leer y apren
 
 📘 **Guía completa paso a paso: [CÓMO-USAR.md](COMO-USAR.md)** (instalación en Claude Code y en la app de Claude, cómo actualizar y solución de problemas).
 
+### 🧩 Lo más cómodo: instálalo como plugin (Claude Code)
+
+Las 15 skills de una vez, y con actualizaciones cuando el repo mejore:
+
+```
+/plugin marketplace add javier-garzas/ia-product-management
+/plugin install ia-product-management@ia-product-management
+```
+
+Para recibir las mejoras más adelante: `/plugin marketplace update ia-product-management`.
+
+Ideal para **equipos**: todos instalan lo mismo y todos reciben las mejoras a la vez.
+
+### Copiando las carpetas
+
 Resumen rápido para **Claude Code**:
 
 ```bash

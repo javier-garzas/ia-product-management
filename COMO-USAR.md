@@ -21,6 +21,29 @@ Hay dos maneras de aprovecharlas:
 
 ## 2. Instalar en Claude Code (recomendado)
 
+### Como plugin (la opción más cómoda)
+
+El repositorio es también un **plugin de Claude Code**. Dentro de Claude Code, escribe:
+
+```
+/plugin marketplace add javier-garzas/ia-product-management
+/plugin install ia-product-management@ia-product-management
+```
+
+Se instalan las 15 skills a la vez. Ventajas frente a copiar carpetas:
+
+- **Una sola instalación**, sin clonar ni copiar nada.
+- **Actualizaciones:** cuando el repo mejora, lo recibes con `/plugin marketplace update ia-product-management`.
+- **Pensado para equipos:** todo el equipo instala lo mismo y trabaja con el mismo método.
+
+Las skills del plugin se invocan con el prefijo del plugin, por ejemplo `/ia-product-management:crear-spec-sdd`, aunque normalmente Claude las activa solo cuando tu petición encaja.
+
+Para desinstalarlo: `/plugin uninstall ia-product-management`.
+
+> Si ya habías copiado estas skills en `~/.claude/skills/`, bórralas de ahí antes de instalar el plugin, para no tenerlas duplicadas.
+
+### Copiando las carpetas
+
 Las skills personales de Claude Code viven en:
 
 - **macOS / Linux:** `~/.claude/skills/`
@@ -95,7 +118,12 @@ Varias skills son **conversacionales** (te preguntan paso a paso): `crear-lean-c
 
 ## 6. Cómo actualizar
 
-**macOS / Linux:**
+**Si lo instalaste como plugin:**
+```
+/plugin marketplace update ia-product-management
+```
+
+**Si copiaste las carpetas, en macOS / Linux:**
 ```bash
 cd ia-product-management && git pull
 cp -r skills/* ~/.claude/skills/
